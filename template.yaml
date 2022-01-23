@@ -25,9 +25,3 @@ Resources:
             Schedule: 'cron(5 18 * * ? *)'
             Name: RotationSchedule
             Description: Check at rotation time
-        ApiEvent:
-          Type: Api
-          Properties:
-            Path: /run
-            Method: get
-
