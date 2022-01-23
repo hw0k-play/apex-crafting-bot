@@ -233,4 +233,15 @@ pip-selfcheck.json
 
 # Support for Project snippet scope
 
+### SAM+config ###
+# Ignore build directories for the AWS Serverless Application Model (SAM)
+# Info: https://aws.amazon.com/serverless/sam/
+# Docs: https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-reference.html
+
+**/.aws-sam
+
+### SAM+config Patch ###
+# SAM config - exclude this file if sharing publicly
+samconfig.toml
+
 # End of https://www.toptal.com/developers/gitignore/api/python,venv,macos,linux,visualstudiocode
